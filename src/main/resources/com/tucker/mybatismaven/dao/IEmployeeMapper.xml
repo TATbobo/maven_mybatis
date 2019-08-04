@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tucker.mybatismaven.dao.IEmployeeMapper">
+    
+    <resultMap id="emp1" type="emp">
+        <id column="id" property="id"/>
+        <result column="lastName" property="last_name"/>
+        <result column="age" property="age"/>
+        <result column="d_id" property="d_id"/>
+        <result column="did" property="dept.id"/>
+        <result column="dept_name" property="dept.last_name"/>
+    </resultMap>
+    
+    <resultMap id="emp2" type="emp">
+        <id column="id" property="id"/>
+        <result column="lastName" property="last_name"/>
+        <result column="age" property="age"/>
+        <result column="d_id" property="d_id"/>
+        <association property="dept" javaType="dept">
+            <id column="did" property="id"/>
+            <result column="dept_name" property="last_name"/>
+        </association>
+    </resultMap>
+
+    <resultMap id="emp3" type="emp">
+        <id column="id" property="id"/>
+        <result column="lastName" property="last_name"/>
+        <result column="age" property="age"/>
+        <association property="dept" select="com.tucker.mybatismaven.dao.IDepartmentMapper.getDeptById" column="d_id"></association>
+    </resultMap>
+    <select id="getEmpById" resultMap="emp2">
+        select e.id,e.lastName,e.age,e.d_id,d.id did,d.lastName dept_name from employee e,department d where e.d_id = d.id and e.id = #{id};
+
+    </select>
+
+    <select id="getEmpWithDep" resultMap="emp1">
+        select * from employee e left JOIN department d on e.d_id = d.id where e.d_id = #{id};
+    </select>
+
+    <select id="getEmpByIdStep" resultMap="emp3">
+        select * from employee where id = #{id};
+    </select>
+
+</mapper>

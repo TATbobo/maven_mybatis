@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="mybatisConfig/db.properties"></properties>
+
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <typeAliases>
+        <!--<package name="com.tucker.mybatismaven.bean"/>-->
+        <typeAlias type="com.tucker.mybatismaven.bean.User" alias="user"></typeAlias>
+        <typeAlias type="com.tucker.mybatismaven.bean.Department" alias="dept"></typeAlias>
+        <typeAlias type="com.tucker.mybatismaven.bean.Employee" alias="emp"></typeAlias>
+    </typeAliases>
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"></property>
+                <property name="url" value="${jdbc.url}"></property>
+                <property name="username" value="${jdbc.username}"></property>
+                <property name="password" value="${jdbc.password}"></property>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--<mapper resource="com/tucker/mybatisdemo/dao/IUserMapper.xml"></mapper>-->
+        <package name="com.tucker.mybatismaven.dao"/>
+    </mappers>
+</configuration>
