@@ -8,6 +8,9 @@
 
     <settings>
         <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="jdbcTypeForNull" value="NULL"/>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
     </settings>
     <typeAliases>
         <!--<package name="com.tucker.mybatismaven.bean"/>-->

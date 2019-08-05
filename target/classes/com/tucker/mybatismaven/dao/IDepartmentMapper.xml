@@ -9,8 +9,36 @@
         <result column="lastName" property="last_name"/>
     </resultMap>
 
+    <resultMap id="dept2" type="dept">
+        <id column="id" property="id"/>
+        <result column="lastName" property="last_name"/>
+        <collection property="emps" ofType="emp">
+            <id column="emp_id" property="id"/>
+            <result column="emp_name" property="last_name"/>
+            <result column="age" property="age"/>
+        </collection>
+    </resultMap>
+
+    <resultMap id="dept3" type="dept">
+        <id column="id" property="id"/>
+        <result column="lastName" property="last_name"/>
+        <!--<association property="emps" select="com.tucker.mybatismaven.dao.IEmployeeMapper.getEmpByDid" column="id"/>-->
+        <collection property="emps" select="com.tucker.mybatismaven.dao.IEmployeeMapper.getEmpByDid" column="id"/>
+    </resultMap>
+    
     <select id="getDeptById" resultMap="dept1">
         select * from department where id = #{id};
     </select>
 
+    <select id="getDeptByIdPlus" resultMap="dept2">
+        select d.id,d.lastName,e.id emp_id,e.lastName emp_name,e.age
+        from department d
+        LEFT JOIN employee e
+        on d.id = e.d_id
+        where d.id = #{id};
+    </select>
+
+    <select id="getDeptByIdStep" resultMap="dept3">
+        select id,lastName from department where id =#{id};
+    </select>
 </mapper>

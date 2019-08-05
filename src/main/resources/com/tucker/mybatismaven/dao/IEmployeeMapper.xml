@@ -12,7 +12,7 @@
         <result column="did" property="dept.id"/>
         <result column="dept_name" property="dept.last_name"/>
     </resultMap>
-    
+    <!-- 级联查询-->
     <resultMap id="emp2" type="emp">
         <id column="id" property="id"/>
         <result column="lastName" property="last_name"/>
@@ -23,16 +23,38 @@
             <result column="dept_name" property="last_name"/>
         </association>
     </resultMap>
-
+    <!--分步查询-->
     <resultMap id="emp3" type="emp">
         <id column="id" property="id"/>
         <result column="lastName" property="last_name"/>
         <result column="age" property="age"/>
         <association property="dept" select="com.tucker.mybatismaven.dao.IDepartmentMapper.getDeptById" column="d_id"></association>
     </resultMap>
-    <select id="getEmpById" resultMap="emp2">
-        select e.id,e.lastName,e.age,e.d_id,d.id did,d.lastName dept_name from employee e,department d where e.d_id = d.id and e.id = #{id};
-
+    <!-- discriminator选择器-->
+    <resultMap id="emp4" type="emp">
+        <id column="id" property="id"/>
+        <result column="lastName" property="last_name"/>
+        <result column="age" property="age"/>
+        <result column="d_id" property="d_id"/>
+        <result column="did" property="dept.id"/>
+        <result column="dept_name" property="dept.last_name"/>
+        <discriminator javaType="int" column="d_id">
+            <case value="1" resultType="emp">
+                <association property="dept" select="com.tucker.mybatismaven.dao.IDepartmentMapper.getDeptById"  column="d_id"/>
+            </case>
+            <case value="2" resultType="emp">
+                <id column="id" property="id"/>
+                <result column="lastName" property="last_name"/>
+                <result column="age" property="age"/>
+                <result column="d_id" property="d_id"/>
+                <result column="did" property="dept.id"/>
+                <result column="dept_name" property="dept.last_name"/>
+            </case>
+        </discriminator>
+    </resultMap>
+    <select id="getEmpById" resultMap="emp4">
+        <!--select e.id,e.lastName,e.age,e.d_id,d.id did,d.lastName dept_name from employee e,department d where e.d_id = d.id and e.id = #{id};-->
+        select * from employee where id = #{id};
     </select>
 
     <select id="getEmpWithDep" resultMap="emp1">
@@ -41,6 +63,14 @@
 
     <select id="getEmpByIdStep" resultMap="emp3">
         select * from employee where id = #{id};
+    </select>
+
+    <select id="getEmpLastNameById" resultMap="emp3">
+        select lastName from employee where id = #{id};
+    </select>
+
+    <select id="getEmpByDid" resultMap="emp1">
+        select id,lastName,age from employee where d_id = #{id};
     </select>
 
 </mapper>

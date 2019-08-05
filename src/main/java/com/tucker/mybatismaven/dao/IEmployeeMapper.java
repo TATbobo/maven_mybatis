@@ -11,4 +11,8 @@ public interface IEmployeeMapper {
     List<Employee> getEmpWithDep(Integer id);
 
     Employee getEmpByIdStep(Integer id);
+
+    String getEmpLastNameById(Integer id);
+
+    Employee getEmpByDid(Integer id);
 }

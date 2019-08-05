@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tucker.mybatismaven.dao.IEmployeeMapperDynamicSQL">
+
+    <resultMap id="emp1" type="emp">
+        <id column="id" property="id"/>
+        <result column="lastName" property="last_name"/>
+        <result column="age" property="age"/>
+        <result column="d_id" property="d_id"/>
+    </resultMap>
+
+    <select id="getEmpByCondition" resultType="emp">
+        select * from employee
+        <trim prefix="where" suffixOverrides="and">
+        <if test="id!=null">
+            id = #{id} and
+        </if>
+        <if test="last_name!=null and last_name!=''">
+            lastName like #{last_name} and
+        </if>
+        <if test="age &gt; 18">
+            age = #{age}
+        </if>
+        </trim>
+    </select>
+
+    <select id="getEmpByOneCondition" resultType="emp">
+        select * from employee
+        <where>
+            <choose>
+                <when test="id!=null">
+                    id=#{id}
+                </when>
+                <when test="last_name!=null">
+                    lastName like #{last_name}
+                </when>
+                <when test="age!=null">
+                    age =#{age}
+                </when>
+            </choose>
+        </where>
+
+    </select>
+
+    <insert id="BulkInsertEmp">
+        <!--insert into employee(lastName,age,d_id)
+        values
+        <foreach collection="emps" item="emp" separator=",">
+            (#{emp.last_name},#{emp.age},#{emp.d_id})
+        </foreach>-->
+        <foreach collection="emps" item="emp" separator=";">
+            insert into employee(lastName,age,d_id)
+            values(#{emp.last_name},#{emp.age},#{emp.d_id})
+        </foreach>
+
+    </insert>
+</mapper>

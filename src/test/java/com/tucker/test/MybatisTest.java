@@ -5,6 +5,7 @@ import com.tucker.mybatismaven.bean.Employee;
 import com.tucker.mybatismaven.bean.User;
 import com.tucker.mybatismaven.dao.IDepartmentMapper;
 import com.tucker.mybatismaven.dao.IEmployeeMapper;
+import com.tucker.mybatismaven.dao.IEmployeeMapperDynamicSQL;
 import com.tucker.mybatismaven.dao.IUserMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -18,6 +19,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -28,6 +30,7 @@ public class MybatisTest {
     private IUserMapper userMapper;
     private IEmployeeMapper empMapper;
     private IDepartmentMapper deptMapper;
+    private IEmployeeMapperDynamicSQL empDSQLMapper;
 
     /*public static SqlSessionFactory getSqlSessionFactory() throws Exception{
         String resource = "mybatisConfig/mybatis-config.xml";
@@ -49,6 +52,8 @@ public class MybatisTest {
         empMapper = sqlSession.getMapper(IEmployeeMapper.class);
 
         deptMapper = sqlSession.getMapper(IDepartmentMapper.class);
+
+        empDSQLMapper = sqlSession.getMapper(IEmployeeMapperDynamicSQL.class);
     }
 
     @After
@@ -125,7 +130,7 @@ public class MybatisTest {
 
     @Test
     public void getEmpById(){
-       Employee employee = empMapper.getEmpById(3);
+       Employee employee = empMapper.getEmpById(4);
         System.out.println(employee);
 
     }
@@ -141,7 +146,50 @@ public class MybatisTest {
     @Test
     public void getEmpByIdStep(){
         Employee employee = empMapper.getEmpByIdStep(3);
-        System.out.println(employee);
-        System.out.println(employee.getDept());
+        System.out.println(employee.getLast_name());
+       /* System.out.println(employee.getDept());*/
+    }
+
+    @Test
+    public void getEmpLastNameById(){
+        String empName = empMapper.getEmpLastNameById(1);
+        System.out.println(empName);
+    }
+
+    @Test
+    public void getDeptByIdPlus(){
+        Department dept = deptMapper.getDeptByIdPlus(2);
+        System.out.println(dept.getLast_name());
+        System.out.println(dept.getEmps());
+    }
+
+    @Test
+    public void  getEmpByDid(){
+        Department dept = deptMapper.getDeptByIdStep(1);
+        System.out.println(dept.getLast_name());
+        System.out.println(dept.getEmps());
+
+    }
+
+    @Test
+    public void getEmpByCondition(){
+        Employee employee = new Employee(1,null,18,null);
+        Employee emp = empDSQLMapper.getEmpByCondition(employee);
+        System.out.println(emp);
+    }
+
+    @Test
+    public void getEmpByOneCondition(){
+        Employee employee = new Employee(null,"t%",null,null);
+        Employee emp = empDSQLMapper.getEmpByOneCondition(employee);
+        System.out.println(emp);
+    }
+
+    @Test
+    public void BulkInsertEmp(){
+        List<Employee> emps = new ArrayList<>();
+        emps.add(new Employee(null,"harden",33,2));
+        emps.add(new Employee(null,"currey",31,1));
+        empDSQLMapper.BulkInsertEmp(emps);
     }
 }
