@@ -12,4 +12,6 @@ public interface IEmployeeMapperDynamicSQL {
     Employee getEmpByOneCondition(Employee emp);
 
     void BulkInsertEmp(@Param("emps") List<Employee> employees);
+
+    List<Employee> getEmpPageByd_id(Integer d_id);
 }

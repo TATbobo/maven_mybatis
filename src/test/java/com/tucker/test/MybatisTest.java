@@ -1,5 +1,7 @@
 package com.tucker.test;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.tucker.mybatismaven.bean.Department;
 import com.tucker.mybatismaven.bean.Employee;
 import com.tucker.mybatismaven.bean.User;
@@ -8,9 +10,7 @@ import com.tucker.mybatismaven.dao.IEmployeeMapper;
 import com.tucker.mybatismaven.dao.IEmployeeMapperDynamicSQL;
 import com.tucker.mybatismaven.dao.IUserMapper;
 import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.ibatis.session.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -65,6 +65,8 @@ public class MybatisTest {
 
   @Test
     public void findAll(){
+
+      PageHelper.startPage(1,2);
             List<User> users = userMapper.getAll();
             for (User user:users){
                 System.out.println(user);}
@@ -78,7 +80,14 @@ public class MybatisTest {
     }
 
     @Test
-    public void insertUser() throws ParseException {
+    public void insertUser() throws ParseException, IOException {
+        in = Resources.getResourceAsStream("mybatisConfig/mybatis-config.xml");
+
+        SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSessions = factory.openSession(ExecutorType.BATCH,true);
+
+        userMapper = sqlSessions.getMapper(IUserMapper.class);
         String birthday = "1999-12-26";
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         Date date = format.parse(birthday);
@@ -87,8 +96,9 @@ public class MybatisTest {
         user.setSex("男");
         user.setBirthday(date);
         user.setAddress("潼南");
-
-        userMapper.insertUser(user);
+        for(int i=0;i<1000;i++){
+            userMapper.insertUser(user);
+        }
         System.out.println(user);
     }
 
@@ -147,7 +157,7 @@ public class MybatisTest {
     public void getEmpByIdStep(){
         Employee employee = empMapper.getEmpByIdStep(3);
         System.out.println(employee.getLast_name());
-       /* System.out.println(employee.getDept());*/
+        employee.getDept();
     }
 
     @Test
@@ -164,22 +174,23 @@ public class MybatisTest {
     }
 
     @Test
-    public void  getEmpByDid(){
+    public void  getDeptByIdStep(){
         Department dept = deptMapper.getDeptByIdStep(1);
         System.out.println(dept.getLast_name());
-        System.out.println(dept.getEmps());
-
+        dept.getEmps();
     }
 
     @Test
     public void getEmpByCondition(){
-        Employee employee = new Employee(1,null,18,null);
+        PageHelper.startPage(1,2);
+        Employee employee = new Employee(null,null,null,1);
         Employee emp = empDSQLMapper.getEmpByCondition(employee);
         System.out.println(emp);
     }
 
     @Test
     public void getEmpByOneCondition(){
+
         Employee employee = new Employee(null,"t%",null,null);
         Employee emp = empDSQLMapper.getEmpByOneCondition(employee);
         System.out.println(emp);
@@ -191,5 +202,27 @@ public class MybatisTest {
         emps.add(new Employee(null,"harden",33,2));
         emps.add(new Employee(null,"currey",31,1));
         empDSQLMapper.BulkInsertEmp(emps);
+    }
+
+    @Test
+    public void getEmpPageByd_id(){
+        PageHelper.startPage(2,2);
+        List<Employee> employees = empDSQLMapper.getEmpPageByd_id(1);
+        for (Employee employee:employees){
+            System.out.println(employee);
+        }
+    }
+
+    @Test
+    public void getUserPage(){
+        List<User> users = userMapper.getUserPage(new RowBounds(1,10));
+        for (User user:users){
+            System.out.println(user);
+        }
+    }
+    @Test
+    public void test(){
+        String sql = "select * from user;";
+        System.out.println(sql.replace(";",""));
     }
 }

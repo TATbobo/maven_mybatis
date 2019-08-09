@@ -4,6 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+
     <properties resource="mybatisConfig/db.properties"></properties>
 
     <settings>
@@ -18,6 +19,10 @@
         <typeAlias type="com.tucker.mybatismaven.bean.Department" alias="dept"></typeAlias>
         <typeAlias type="com.tucker.mybatismaven.bean.Employee" alias="emp"></typeAlias>
     </typeAliases>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+        <plugin interceptor="com.tucker.mybatismaven.plugin.MyPagePlugin"></plugin>
+    </plugins>
     <environments default="mysql">
         <environment id="mysql">
             <transactionManager type="JDBC"></transactionManager>

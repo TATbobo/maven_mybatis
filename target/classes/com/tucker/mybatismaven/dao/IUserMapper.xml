@@ -17,7 +17,7 @@
     </delete>
     <!--插入并获取自增主键-->
     <insert id="insertUser" parameterType="user" useGeneratedKeys="true" keyProperty="id">
-        /*获取非自增主键*/
+        <!--获取非自增主键-->
         <!--<selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
             select last_insert_id();
         </selectKey>-->
@@ -34,5 +34,9 @@
 
     <select id="getCount" resultType="java.lang.Integer">
         select count(id) from user;
+    </select>
+
+    <select id="getUserPage" resultType="user">
+        select * from user;
     </select>
 </mapper>

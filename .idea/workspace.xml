@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4d9e8e4-7b4c-46c3-83f2-f1fba3264316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/plugin/MyPagePlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IDepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IDepartmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IDepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IDepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IUserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatisConfig/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatisConfig/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatisConfig/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatisConfig/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tucker/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tucker/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/bean/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/bean/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/bean/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/bean/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IDepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IDepartmentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IDepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IDepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IEmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IEmployeeMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IEmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IEmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tucker/mybatismaven/dao/IUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatisConfig/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatisConfig/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatisConfig/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatisConfig/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/tucker/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tucker/test/MybatisTest.class" afterDir="false" />
     </list>
@@ -38,44 +35,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisConfig/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tucker/test/MybatisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+            <state relative-caret-position="124">
+              <caret line="215" column="9" lean-forward="true" selection-start-line="215" selection-start-column="9" selection-end-line="215" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#destroy#0;class#MybatisTest#0" />
-                <element signature="method#findAll#0;class#MybatisTest#0" />
                 <element signature="method#insertUser#0;class#MybatisTest#0" />
                 <element signature="method#deleteUser#0;class#MybatisTest#0" />
                 <element signature="method#updateUser#0;class#MybatisTest#0" />
@@ -85,9 +51,35 @@
                 <element signature="method#getEmpWithDept#0;class#MybatisTest#0" />
                 <element signature="method#getEmpLastNameById#0;class#MybatisTest#0" />
                 <element signature="method#getDeptByIdPlus#0;class#MybatisTest#0" />
-                <element signature="method#getEmpByDid#0;class#MybatisTest#0" />
+                <element signature="method#getDeptByIdStep#0;class#MybatisTest#0" />
                 <element signature="method#getEmpByCondition#0;class#MybatisTest#0" />
+                <element signature="method#getEmpByOneCondition#0;class#MybatisTest#0" />
+                <element signature="method#BulkInsertEmp#0;class#MybatisTest#0" />
+                <element signature="method#getEmpPageByd_id#0;class#MybatisTest#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/plugin/MyPagePlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2291#2292#0" expanded="true" />
+                <element signature="e#2338#2339#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisConfig/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -97,11 +89,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>query</find>
+      <find>quer</find>
+      <find>sqlSource</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,23 +109,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IUser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IUserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IUserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapper.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IDepartmentMapper" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatisConfig/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IDepartmentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IDepartmentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tucker/test/MybatisTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatisConfig/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatisConfig/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/plugin/MyPagePlugin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tucker/test/MybatisTest.java" />
       </list>
     </option>
   </component>
@@ -154,10 +155,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="576" />
-    <option name="y" value="32" />
-    <option name="width" value="1263" />
-    <option name="height" value="953" />
+    <option name="x" value="-9" />
+    <option name="y" value="5" />
+    <option name="width" value="1703" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,8 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,34 +249,11 @@
               <item name="mybatismaven" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatismaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatismaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatismaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatismaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tucker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatismaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatismaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tucker" type="462c0819:PsiDirectoryNode" />
               <item name="mybatismaven" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatismaven" type="b2602c69:ProjectViewProjectNode" />
@@ -283,10 +261,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tucker" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatismaven" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatismaven" type="b2602c69:ProjectViewProjectNode" />
@@ -336,6 +310,10 @@
               <item name="tucker" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mybatismaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -380,8 +358,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.BulkInsertEmp">
-    <configuration name="MybatisTest.BulkInsertEmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisTest.getUserPage">
+    <configuration name="MybatisTest.getDeptByIdStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatismaven" />
       <extension name="coverage">
         <pattern>
@@ -391,13 +369,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tucker.test" />
       <option name="MAIN_CLASS_NAME" value="com.tucker.test.MybatisTest" />
-      <option name="METHOD_NAME" value="BulkInsertEmp" />
+      <option name="METHOD_NAME" value="getDeptByIdStep" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.getEmpByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.getDeptByStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatismaven" />
       <extension name="coverage">
         <pattern>
@@ -407,13 +385,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tucker.test" />
       <option name="MAIN_CLASS_NAME" value="com.tucker.test.MybatisTest" />
-      <option name="METHOD_NAME" value="getEmpByCondition" />
+      <option name="METHOD_NAME" value="getDeptByStep" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.getEmpByDid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.getEmpByIdStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatismaven" />
       <extension name="coverage">
         <pattern>
@@ -423,13 +401,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tucker.test" />
       <option name="MAIN_CLASS_NAME" value="com.tucker.test.MybatisTest" />
-      <option name="METHOD_NAME" value="getEmpByDid" />
+      <option name="METHOD_NAME" value="getEmpByIdStep" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.getEmpById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.getUserPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatismaven" />
       <extension name="coverage">
         <pattern>
@@ -439,13 +417,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tucker.test" />
       <option name="MAIN_CLASS_NAME" value="com.tucker.test.MybatisTest" />
-      <option name="METHOD_NAME" value="getEmpById" />
+      <option name="METHOD_NAME" value="getUserPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.getEmpByOneCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatismaven" />
       <extension name="coverage">
         <pattern>
@@ -455,7 +433,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tucker.test" />
       <option name="MAIN_CLASS_NAME" value="com.tucker.test.MybatisTest" />
-      <option name="METHOD_NAME" value="getEmpByOneCondition" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -463,11 +441,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.BulkInsertEmp" />
-        <item itemvalue="JUnit.MybatisTest.getEmpByOneCondition" />
-        <item itemvalue="JUnit.MybatisTest.getEmpByCondition" />
-        <item itemvalue="JUnit.MybatisTest.getEmpById" />
-        <item itemvalue="JUnit.MybatisTest.getEmpByDid" />
+        <item itemvalue="JUnit.MybatisTest.getUserPage" />
+        <item itemvalue="JUnit.MybatisTest.test" />
+        <item itemvalue="JUnit.MybatisTest.getEmpByIdStep" />
+        <item itemvalue="JUnit.MybatisTest.getDeptByIdStep" />
+        <item itemvalue="JUnit.MybatisTest.getDeptByStep" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +464,10 @@
       <workItem from="1564882869826" duration="13860000" />
       <workItem from="1564981565502" duration="6443000" />
       <workItem from="1564990810063" duration="2476000" />
-      <workItem from="1564996908223" duration="6514000" />
+      <workItem from="1564996908223" duration="6583000" />
+      <workItem from="1565074967730" duration="5188000" />
+      <workItem from="1565240706009" duration="4549000" />
+      <workItem from="1565318101703" duration="17407000" />
     </task>
     <task id="LOCAL-00001" summary="8.4:maven+mybatis practice">
       <created>1564919517512</created>
@@ -495,48 +476,56 @@
       <option name="project" value="LOCAL" />
       <updated>1564919517512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="8.4:maven+mybatis practice&#10;8.5:动态sql标签练习等">
+      <created>1565012705323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565012705323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybatisTest_getEmpByCondition - 2019.08.05 at 21h 21m 13s.xml">
-      <configuration name="MybatisTest.getEmpByCondition" configurationId="JUnit" />
+    <history-entry file="MybatisTest_getUserPage - 2019.08.09 at 21h 37m 10s.xml">
+      <configuration name="MybatisTest.getUserPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_getEmpByCondition - 2019.08.05 at 21h 21m 57s.xml">
-      <configuration name="MybatisTest.getEmpByCondition" configurationId="JUnit" />
+    <history-entry file="MybatisTest_test - 2019.08.09 at 21h 39m 35s.xml">
+      <configuration name="MybatisTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_getEmpByOneCondition - 2019.08.05 at 21h 26m 51s.xml">
-      <configuration name="MybatisTest.getEmpByOneCondition" configurationId="JUnit" />
+    <history-entry file="MybatisTest_test - 2019.08.09 at 21h 40m 24s.xml">
+      <configuration name="MybatisTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_getEmpByOneCondition - 2019.08.05 at 21h 27m 18s.xml">
-      <configuration name="MybatisTest.getEmpByOneCondition" configurationId="JUnit" />
+    <history-entry file="MybatisTest_getUserPage - 2019.08.09 at 21h 40m 43s.xml">
+      <configuration name="MybatisTest.getUserPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_getEmpByOneCondition - 2019.08.05 at 21h 27m 58s.xml">
-      <configuration name="MybatisTest.getEmpByOneCondition" configurationId="JUnit" />
+    <history-entry file="MybatisTest_test - 2019.08.09 at 21h 46m 23s.xml">
+      <configuration name="MybatisTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_BulkInsertEmp - 2019.08.05 at 21h 36m 55s.xml">
-      <configuration name="MybatisTest.BulkInsertEmp" configurationId="JUnit" />
+    <history-entry file="MybatisTest_getUserPage - 2019.08.09 at 21h 46m 38s.xml">
+      <configuration name="MybatisTest.getUserPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_BulkInsertEmp - 2019.08.05 at 21h 38m 11s.xml">
-      <configuration name="MybatisTest.BulkInsertEmp" configurationId="JUnit" />
+    <history-entry file="MybatisTest_getUserPage - 2019.08.09 at 21h 47m 15s.xml">
+      <configuration name="MybatisTest.getUserPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_BulkInsertEmp - 2019.08.05 at 21h 39m 25s.xml">
-      <configuration name="MybatisTest.BulkInsertEmp" configurationId="JUnit" />
+    <history-entry file="MybatisTest_getUserPage - 2019.08.09 at 21h 47m 31s.xml">
+      <configuration name="MybatisTest.getUserPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_BulkInsertEmp - 2019.08.05 at 21h 39m 38s.xml">
-      <configuration name="MybatisTest.BulkInsertEmp" configurationId="JUnit" />
+    <history-entry file="MybatisTest_getUserPage - 2019.08.09 at 21h 48m 13s.xml">
+      <configuration name="MybatisTest.getUserPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_BulkInsertEmp - 2019.08.05 at 21h 42m 17s.xml">
-      <configuration name="MybatisTest.BulkInsertEmp" configurationId="JUnit" />
+    <history-entry file="MybatisTest_getUserPage - 2019.08.09 at 23h 03m 17s.xml">
+      <configuration name="MybatisTest.getUserPage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41768000" />
+    <option name="totallyTimeSpent" value="68981000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="461" y="26" width="1010" height="762" extended-state="0" />
+    <frame x="-7" y="4" width="1362" height="798" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2972689" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24003068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -544,8 +533,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4079365" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36595175" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4054054" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -559,14 +548,14 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.30505952" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24927816" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Maven" order="5" weight="0.32908848" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2972689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3719457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -574,8 +563,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4089636" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36595175" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3198198" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3978979" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -589,7 +578,7 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.30505952" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24927816" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Maven" order="5" weight="0.32908848" />
@@ -601,7 +590,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="8.4:maven+mybatis practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.4:maven+mybatis practice" />
+    <MESSAGE value="8.4:maven+mybatis practice&#10;8.5:动态sql标签练习等" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.4:maven+mybatis practice&#10;8.5:动态sql标签练习等" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao.java" />
@@ -619,44 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,23 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IDepartmentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -694,49 +633,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
-          <folding>
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#5951#6086#0" expanded="true" />
-            <element signature="e#6085#6086#0" expanded="true" />
-            <element signature="e#6484#6648#0" expanded="true" />
-            <element signature="e#6647#6648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -761,46 +657,361 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state>
+          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapper.xml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        <state relative-caret-position="855">
+          <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IDepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="41" column="59" lean-forward="true" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/executor/loader/ResultLoaderMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#2251#2252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/bean/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/executor/loader/javassist/JavassistProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/executor/BaseExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/executor/CachingExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="2492" column="21" selection-start-line="2492" selection-start-column="21" selection-end-line="2492" selection-end-column="21" />
+          <folding>
+            <element signature="e#101735#101736#0" expanded="true" />
+            <element signature="e#101781#101782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="2980" column="35" selection-start-line="2980" selection-start-column="35" selection-end-line="2980" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="754" column="16" selection-start-line="754" selection-start-column="16" selection-end-line="754" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/mapping/MappedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/executor/Executor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/session/RowBounds.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisConfig/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.tucker:mybatis-maven:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.tucker:mybatis-maven:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="102.5">com.tucker:mybatis-maven:1.0-SNAPSHOT</node>
+            <node x="172.5" y="205.0">org.mybatis:mybatis:jar:3.5.2</node>
+            <node x="132.0" y="164.0">mysql:mysql-connector-java:jar:8.0.16</node>
+            <node x="304.0" y="164.0">mysql:mysql-connector-java:jar:8.0.16/com.google.protobuf:protobuf-java:jar:3.6.1</node>
+            <node x="180.5" y="123.0">log4j:log4j:jar:1.2.17</node>
+            <node x="173.0" y="82.0">org.projectlombok:lombok:jar:1.18.8</node>
+            <node x="182.5" y="41.0">junit:junit:jar:4.12</node>
+            <node x="302.0" y="41.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="161.5" y="0.0">com.github.pagehelper:pagehelper:jar:5.1.2</node>
+            <node x="316.0" y="0.0">com.github.pagehelper:pagehelper:jar:5.1.2/com.github.jsqlparser:jsqlparser:jar:1.0</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.github.pagehelper:pagehelper:jar:5.1.2" target="com.github.pagehelper:pagehelper:jar:5.1.2/com.github.jsqlparser:jsqlparser:jar:1.0">
+              <point x="45.5" y="-0.0" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="com.tucker:mybatis-maven:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.18.8">
+              <point x="56.0" y="-1.75" />
+              <point x="132.0" y="92.5" />
+              <point x="-34.0" y="-0.0" />
+            </edge>
+            <edge source="com.tucker:mybatis-maven:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="56.0" y="-5.25" />
+              <point x="132.0" y="51.5" />
+              <point x="-24.5" y="-0.0" />
+            </edge>
+            <edge source="com.tucker:mybatis-maven:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.5.2">
+              <point x="56.0" y="8.75" />
+              <point x="132.0" y="215.5" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="com.tucker:mybatis-maven:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:8.0.16">
+              <point x="56.0" y="5.25" />
+              <point x="-75.0" y="-0.0" />
+            </edge>
+            <edge source="com.tucker:mybatis-maven:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
+              <point x="56.0" y="1.75" />
+              <point x="132.0" y="133.5" />
+              <point x="-26.5" y="-0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="24.5" y="-0.0" />
+              <point x="-54.0" y="-0.0" />
+            </edge>
+            <edge source="com.tucker:mybatis-maven:1.0-SNAPSHOT" target="com.github.pagehelper:pagehelper:jar:5.1.2">
+              <point x="56.0" y="-8.75" />
+              <point x="132.0" y="10.5" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="mysql:mysql-connector-java:jar:8.0.16" target="mysql:mysql-connector-java:jar:8.0.16/com.google.protobuf:protobuf-java:jar:3.6.1">
+              <point x="75.0" y="-0.0" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-113.0" y="75.0" />
+          <SelectedNodes>
+            <node>org.mybatis:mybatis:jar:3.5.2</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/plugin/Plugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisConfig/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+        <state relative-caret-position="74">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/plugin/MyPagePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2338#2339#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tucker/test/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+        <state relative-caret-position="124">
+          <caret line="215" column="9" lean-forward="true" selection-start-line="215" selection-start-column="9" selection-end-line="215" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#destroy#0;class#MybatisTest#0" />
-            <element signature="method#findAll#0;class#MybatisTest#0" />
             <element signature="method#insertUser#0;class#MybatisTest#0" />
             <element signature="method#deleteUser#0;class#MybatisTest#0" />
             <element signature="method#updateUser#0;class#MybatisTest#0" />
@@ -810,25 +1021,11 @@
             <element signature="method#getEmpWithDept#0;class#MybatisTest#0" />
             <element signature="method#getEmpLastNameById#0;class#MybatisTest#0" />
             <element signature="method#getDeptByIdPlus#0;class#MybatisTest#0" />
-            <element signature="method#getEmpByDid#0;class#MybatisTest#0" />
+            <element signature="method#getDeptByIdStep#0;class#MybatisTest#0" />
             <element signature="method#getEmpByCondition#0;class#MybatisTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tucker/mybatismaven/dao/IEmployeeMapperDynamicSQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#getEmpByOneCondition#0;class#MybatisTest#0" />
+            <element signature="method#BulkInsertEmp#0;class#MybatisTest#0" />
+            <element signature="method#getEmpPageByd_id#0;class#MybatisTest#0" />
           </folding>
         </state>
       </provider>

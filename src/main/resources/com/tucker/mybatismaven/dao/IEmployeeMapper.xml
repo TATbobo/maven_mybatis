@@ -3,7 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.tucker.mybatismaven.dao.IEmployeeMapper">
-    
+
+    <!--<cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>-->
     <resultMap id="emp1" type="emp">
         <id column="id" property="id"/>
         <result column="lastName" property="last_name"/>
@@ -28,6 +29,7 @@
         <id column="id" property="id"/>
         <result column="lastName" property="last_name"/>
         <result column="age" property="age"/>
+        <result column="d_id" property="d_id"/>
         <association property="dept" select="com.tucker.mybatismaven.dao.IDepartmentMapper.getDeptById" column="d_id"></association>
     </resultMap>
     <!-- discriminator选择器-->
@@ -69,8 +71,8 @@
         select lastName from employee where id = #{id};
     </select>
 
-    <select id="getEmpByDid" resultMap="emp1">
-        select id,lastName,age from employee where d_id = #{id};
+    <select id="getEmpByDid" resultType="emp">
+        select * from employee where d_id = #{id};
     </select>
 
 </mapper>
